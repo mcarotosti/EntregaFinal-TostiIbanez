@@ -1,0 +1,14 @@
+{
+  "name": "preentrega1-tostiibanez",
+  "version": "1.0.0",
+  "description": "Pre Entrega Tosti Ibanez del curso de **Desarrollo Web**",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w"
+  },
+  "author": "Maria Carolina Tosti Ibanez",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

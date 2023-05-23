@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .text::first-letter {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+main div {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+main form {
+  display: grid;
+  justify-content: start;
+  margin: 30px;
+  background-color: lightgray;
+  width: fit-content;
+}
+main form label {
+  margin: 10px;
+}
+main form input {
+  margin: 10px;
+}
+
+main form label {
+  margin: 10px;
+}
+
+main form input {
+  margin: 10px;
+}
+
+.servicios {
+  height: 350px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.shows {
+  height: 250px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sobremi {
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

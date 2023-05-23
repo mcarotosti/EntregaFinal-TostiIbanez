@@ -1,0 +1,23 @@
+main form {
+    display: grid;
+    justify-content: start;
+    margin: 30px;
+    background-color: lightgray;
+    width: fit-content;
+
+    label {
+        margin: 10px;
+    }
+
+    input {
+        margin: 10px;
+    }
+}
+
+main form label {
+    margin: 10px;
+}
+
+main form input {
+    margin: 10px;
+}

@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
+/*
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+*/
 
-
-
-
+/*
 main div {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 60px;
 }
+
+*/
+
 
 footer section {
     display: flex;
@@ -31,16 +34,23 @@ footer section {
     margin: 5px;
 }
 
+
 main section {
     display: grid;
     justify-content: center;
 }
 
+main p {
+    margin-top: 30px;
+}
+
+/*
 .text::first-letter {
     font-weight: bold;
     font-size: 25px;
 
 }
+*/
 
 .tamanofoto {
     height: 250px;
@@ -56,6 +66,8 @@ main section {
     width: 100%;
 }
 
+
+/*
 .sobremi {
     height: 200px;
     justify-content: center;
@@ -63,7 +75,8 @@ main section {
     margin-top: 20px;
     width: 100%;
 }
-
+*/
+/*
 .shows {
     height: 250px;
     justify-content: center;
@@ -71,7 +84,9 @@ main section {
     margin-top: 20px;
     width: 100%;
 }
+*/
 
+/*
 .servicios {
     height: 350px;
     justify-content: center;
@@ -79,19 +94,28 @@ main section {
     margin-top: 20px;
     width: 100%;
 }
+*/
 
+/*
+main form {
+    display: grid;
+    justify-content: start;
+    margin: 30px;
+    background-color: lightgray;
+    width: fit-content;
+}
 
+main form label {
+    margin: 10px;
+}
 
+main form input {
+    margin: 10px;
+}
+
+*/
 
 @media (min-width: 576px) {
-    header nav ul {
-        display: flex;
-        list-style-type: none;
-    }
-
-    header nav span {
-        display: none;
-    }
 
     .iconos {
         height: 30px;
@@ -112,12 +136,14 @@ main section {
         margin: 20px;
     }
 
+    
     .sobremi {
         height: 400px;
         width: auto;
         justify-self: center;
         margin: 20px;
     }
+    
 
     .shows {
         height: 400px;
@@ -134,3 +160,4 @@ main section {
     }
    
 }
+

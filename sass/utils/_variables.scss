@@ -1,0 +1,9 @@
+$fontLetter: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+    font-family: $fontLetter;
+    .text::first-letter {
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
