@@ -1,0 +1,22 @@
+main section {
+    display: grid;
+    justify-content: center;
+}
+
+main p {
+    margin-top: 30px;
+}
+
+.tamanofoto {
+    height: 250px;
+    justify-self: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.video {
+    height: 300px;
+    justify-self: center;
+    margin: 20px;
+    width: 100%;
+}

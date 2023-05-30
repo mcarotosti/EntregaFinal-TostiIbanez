@@ -27,12 +27,27 @@ main form input {
   margin: 10px;
 }
 
-main form label {
-  margin: 10px;
+main section {
+  display: grid;
+  justify-content: center;
 }
 
-main form input {
-  margin: 10px;
+main p {
+  margin-top: 30px;
+}
+
+.tamanofoto {
+  height: 250px;
+  justify-self: center;
+  margin: 20px;
+  width: 100%;
+}
+
+.video {
+  height: 300px;
+  justify-self: center;
+  margin: 20px;
+  width: 100%;
 }
 
 .servicios {
@@ -42,6 +57,7 @@ main form input {
   margin-top: 20px;
   width: 100%;
 }
+
 
 .shows {
   height: 250px;
@@ -59,4 +75,30 @@ main form input {
   width: 100%;
 }
 
+footer section {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+  
+}
+
+.iconos:hover {
+  height: 20px;
+  background-position: center;
+  margin: 5px;
+  transition: transform .2s;
+  transform: scale(1.5)
+}
+
+header nav div ul li a:hover {
+  background-color: grey;
+  color: black;
+  border-radius: 3px;
+}
+
+header nav div ul li a:active {
+  background-color: grey;
+  color: black;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+footer section {
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    
+}
+
+.iconos:hover {
+    height: 20px;
+    background-position: center;
+    margin: 5px;
+    transition: transform .2s;
+    transform: scale(1.5)
+}
