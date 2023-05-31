@@ -82,12 +82,10 @@ footer section {
   
 }
 
-.iconos:hover {
+.iconos {
   height: 20px;
   background-position: center;
   margin: 5px;
-  transition: transform .2s;
-  transform: scale(1.5)
 }
 
 header nav div ul li a:hover {
