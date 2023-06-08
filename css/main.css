@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -99,4 +105,53 @@ header nav div ul li a:active {
   color: black;
   border-radius: 20px;
 }
+
+@media (min-width: 576px) {
+
+  .iconos:hover {
+      height: 30px;
+      background-position: center;
+      margin: 5px;
+      transform: scale(1.5);
+  }
+  
+
+  .tamanofoto {
+      height: 400px;
+      width: auto;
+      justify-self: center;
+      margin: 20px;
+  }
+
+  .video {
+      height: 400px;
+      justify-self: center;
+      margin: 20px;
+  }
+
+  
+  .sobremi {
+      height: 400px;
+      width: auto;
+      justify-self: center;
+      margin: 20px;
+  }
+  
+
+  .shows {
+      height: 400px;
+      width: auto;
+      justify-self: center;
+      margin: 20px;
+  }
+  
+  .servicios {
+      height: 600px;
+      justify-self: center;
+      margin: 20px;
+      width: auto;
+  }
+ 
+}
+
 /*# sourceMappingURL=main.css.map */
